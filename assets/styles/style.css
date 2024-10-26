@@ -1,0 +1,109 @@
+body {
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(77, 66, 82);
+    background-color: rgb(254, 248, 243);
+    margin: 0 30px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(77, 66, 82);
+}
+
+header img {
+    height: 200px;
+}
+
+header nav {
+    margin-left: 200px;
+    width: 40%;
+    align-self: center;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #121212;
+}
+
+header a:hover {
+    color: rgb(237, 119, 124);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .btn-wrap {
+    align-self: center;
+}
+
+header button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(249, 221, 169);
+    border: none;
+    border-radius: 10px;
+}
+
+header button:hover {
+    background-color: rgb(93, 149, 155);
+    color: rgb(249, 221, 169);
+    cursor: pointer;
+}
+
+main img {
+    width: 100%;
+}
+
+main #text-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main #img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(77, 66, 82);
+}
+
+main .hover-img {
+    width: 30%;
+    margin-bottom: 50px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hover-img img {
+    transition: 1s;
+    display: block;
+}
+
+.hover-img img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    height: 150px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
