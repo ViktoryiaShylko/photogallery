@@ -89,6 +89,7 @@ main .hover-img {
     margin-bottom: 50px;
     display: inline-block;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .hover-img img {
